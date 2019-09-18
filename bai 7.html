@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let x=[0,10,-50,25,3,-20,65,-5,100,-23,80];
+    let v=parseInt(prompt("nhap so nguyen v"));
+    for(let i=0;i<x.length;i++) {
+      if(v === x[i]){
+          x.splice(i,1);
+          x.push(0);
+      }
+    }
+
+    console.log(x);
+</script>
+</body>
+</html>
